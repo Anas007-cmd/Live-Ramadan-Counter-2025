@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-hijri/2.1.0/moment-hijri.min.js"></script>
+    <title>Ramadan Tracker & Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <h1>Ramadan Kareem</h1>
+        <p>Countdown and Calendar</p>
+      </header>
+      <div class="tracker">
+        <h2>Countdown to Ramadan</h2>
+        <div class="countdown" id="countdown">
+          <span id="months"></span> month, <span id="weeks"></span> week,
+          <span id="days"></span> days, <span id="hours"></span> hours,
+          <span id="minutes"></span> minutes, <span id="seconds"></span> sec:
+          <span id="milliseconds"></span> milliseconds
+        </div>
+      </div>
+
+      <div>
+        <div class="listbydaytime">
+          <div class="dayslist">
+            <ul class="monthsllist">
+              <li>Months</li>
+              <li>weeks</li>
+              <li>days</li>
+              <li>Hours</li>
+              <li>minutes</li>
+              <li>seconds</li>
+              <li>Milliseconds</li>
+            </ul>
+          </div>
+          <div class="countdownbylist">
+            <ul class="monthsllist">
+              <li><span id="monthslist"></span></li>
+              <li><span id="weekslist"></span></li>
+              <li><span id="dayslist"></span></li>
+              <li><span id="hourslist"></span></li>
+              <li><span id="minuteslist"></span></li>
+              <li><span id="secondslist"></span></li>
+              <li><span id="millisecondlist"></span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="calendar">
+          <h2>Islamic Calendar</h2>
+          <div id="islamicCalendar"></div>
+          <h2>Gregorian Calendar</h2>
+          <div id="gregorianCalendar"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
