@@ -1,4 +1,4 @@
-const ramadanDate = new Date("2025-02-28T00:00:00");
+const ramadanDate = new Date("2026-02-17T00:00:00");
 
 function updateCountdown() {
   const now = new Date();
